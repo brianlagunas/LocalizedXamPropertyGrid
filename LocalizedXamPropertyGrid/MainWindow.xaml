@@ -1,0 +1,9 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ig="http://schemas.infragistics.com/xaml" x:Class="LocalizedXamPropertyGrid.MainWindow"
+        Title="MainWindow" Height="350" Width="475">
+    <Grid>
+        <ig:XamPropertyGrid SelectedObject="{Binding}" />
+    </Grid>
+</Window>
